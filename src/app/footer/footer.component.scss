@@ -1,0 +1,33 @@
+footer {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 1rem;
+
+  hr {
+    border-top: 1px solid #ee691e;
+  }
+
+  > .row:first-child {
+    padding: 2rem;
+
+    #horario {
+      text-transform: uppercase;
+      letter-spacing: 0.3rem;
+      text-align: center;
+    }
+
+    h2 {
+      color: #ee691e;
+      font-size: 1.5rem;
+      font-weight: 500;
+    }
+  }
+
+  > .row:last-child {
+    background: #ee691e;
+    padding: 3rem;
+    text-align: center;
+    letter-spacing: 0.3rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+}

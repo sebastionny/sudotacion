@@ -1,0 +1,43 @@
+
+$colorNegro :#000;
+$colorNaraja :#e4631e;
+
+#header{
+    font-family: 'Montserrat', sans-serif!important;
+    
+    .row:first-child{
+        background:url('../../../assets/fondo-naranja.jpg') no-repeat center center;
+        background-size: cover;
+        min-height: 170px;
+        padding-top: 38px;
+        color: #fff;
+        font-size: 1.2rem;
+        letter-spacing: 3px;
+        text-align: center;
+
+        h2 {
+            font-size: 2.5rem;
+            font-weight: 800;
+        }
+    }
+
+    .row:last-child{
+        padding-top: 30px;
+        font-size: 1rem;
+        font-weight: 300;
+        height: 250px;
+        
+        h1 {  font-size: 2.2rem; font-weight: 300; }
+        h2 {  font-size: 1.6rem; font-weight: 300; }
+        span { color: $colorNaraja}
+        
+        .trabajador img {
+            position: relative;
+            top: -180px;
+            display: block;
+            z-index: 10;
+            padding-left: 80px;
+            max-height: 345px;
+        }
+    }
+}
