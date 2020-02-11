@@ -2,7 +2,9 @@
 export const _DATOS_ = {
     titulo: {
         empresa: 'Sudotación S.A.S',
-        horario: 'Horario de atención'
+        horario: 'Horario de atención',
+        cotizar: 'COTIZAR AHORA',
+        celular: '312 3693618'
     },
     image: {
         logo: '../../assets/logo-sudotacion.png',
@@ -84,6 +86,9 @@ export const _DATOS_ = {
         nosotros: 'Nos dedicamos a la fabricación de ropa para el trabajo. y comercialización de productos de seguridad para el trabajo, en áreas de la Industria de la Construcción, Metalmecánica, Comercio y Servicios como: Cocina, Mesa, Bar, Línea Hospitalaria y Cosmetología y ejecutivos.',
         infoFooter: 'Sudotación s.a.s      Teléfono: +57 (1) 721 5119      Celular  (312) 369 3618 ',
         infoFooterContacto: 'sudotacion@hotmail.com     Calle 53 N. 27 a - 15 Bogotá   Barrio Galerías'
+    },
+    action:{
+        cotizar: 'COTIZAR POR EMAIL'
     }
 
 }

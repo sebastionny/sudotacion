@@ -1,47 +1,51 @@
-
 .item {
-    overflow: hidden;
-    border-radius: 20px 20px 0px 0px;
-    border: solid #173873 3px;
-    background: url(../../../assets/hoverItem.png)center -20%;;
-    font-family: 'Montserrat', sans-serif!important;
-    margin-bottom: 30px;
+  overflow: hidden;
+  border-radius: 20px 20px 0px 0px;
+  border: solid #173873 3px;
+  background: url(../../../assets/hoverItem.png) center -15px;
+  font-family: "Montserrat", sans-serif !important;
+  margin-bottom: 30px;
 }
-.item:hover{
-    border: solid #ff8a00 3px;
+.item:hover {
+  border: solid #ff8a00 3px;
 }
 
-.corte{ overflow: hidden;}
+.corte {
+  overflow: hidden;
+}
 
 .item h3 {
-    display: block;
-    font-size: 18px;
-    position: absolute;
-    bottom: 120px;
-    color: #fff;
-    padding-left: 16px;
+  display: block;
+  font-size: 18px;
+  position: absolute;
+  bottom: 120px;
+  color: #fff;
+  padding-left: 16px;
 }
 
 .item img {
-    position: relative;
-    z-index: -1;
-    width: 100%;
+  position: relative;
+  z-index: -1;
+  width: 100%;
 }
 
 .item div:last-child {
-    background: #fff;
-    color: #ff8a00;
-    padding: 11px 20px;
-    margin-top: -40px;
-    text-align: center;
-    letter-spacing: 11px;
-    font-size: 20px;
-
+  background: #fff;
+  color: #ff8a00;
+  padding: 11px 20px;
+  margin-top: -40px;
+  text-align: center;
+  letter-spacing: 11px;
+  font-size: 20px;
 }
 
 .item:hover div:last-child {
-    background: #ff8a00;
-    color: #fff;
-     
+  background: #ff8a00;
+  color: #fff;
 }
 
+@media screen and (max-width: 650px) {
+  .item {
+    margin: 1rem;
+  }
+}

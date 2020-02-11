@@ -1,0 +1,37 @@
+.detail{
+    z-index: 20;
+    background: #0000008f;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    font-family: 'Montserrat', sans-serif!important;
+    color: #333;
+
+    > div {
+        height: 200px;
+        background: #fff;
+        top: 30%;
+    }
+    > div:first-child{
+        background: url(../../assets/backNaraja.jpg) no-repeat;
+        background-image: contain;
+        color: #fff;
+        font-weight: 400;
+        padding: 2rem;
+        text-align: center;
+
+        h3{ font-size: 1.6rem; }
+        h2{ font-size: 3rem; font-weight: 600;}
+        
+        .btn{
+            background:#fff;
+            width: 80%;
+            color: #000000;
+            letter-spacing: 0.1rem;
+        }
+    }
+    > div:last-child{
+        padding: 2rem;
+    }
+}
+

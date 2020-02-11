@@ -41,3 +41,13 @@ $colorNaraja :#e4631e;
         }
     }
 }
+
+
+@media screen and (max-width: 650px) {
+    #header{
+        .row:last-child{
+            height: 300px;
+            h1 {  font-size: 1.8rem; }    
+    }
+  }
+}
