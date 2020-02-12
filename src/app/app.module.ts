@@ -8,6 +8,8 @@ import { ItemComponent } from './components/item/item.component';
 import { FooterComponent } from './footer/footer.component';
 import { DetalleComponent } from './detalle/detalle.component';
 import { BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { ContactoComponent } from './contacto/contacto.component';
+import { RootComponent } from './root/root.component';
 
 
 @NgModule({
@@ -16,7 +18,9 @@ import { BrowserAnimationsModule} from '@angular/platform-browser/animations';
     HeaderComponent,
     ItemComponent,
     FooterComponent,
-    DetalleComponent
+    DetalleComponent,
+    ContactoComponent,
+    RootComponent
   ],
   imports: [
     BrowserModule,
@@ -24,6 +28,6 @@ import { BrowserAnimationsModule} from '@angular/platform-browser/animations';
     BrowserAnimationsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [RootComponent]
 })
 export class AppModule { }

@@ -7,13 +7,15 @@
                 {{__DATOS__.action.cotizar}}
             </div>
         </div>
-        <div class="col-md-7 col-sm-12">
+        <div class="col-md-7 col-sm-12" id="itemDetail">
             <div class="row">
-                <div class="col-sm-4"></div>
+            <div class="col-sm-4 text-center"><img class="img-fluid" src="{{itemDetail.image}}" alt="{{itemDetail.titulo}}"></div>
                 <div class="col-sm-8">
                     <h3>{{itemDetail.titulo}}</h3>
-                    <p>Prendas que incluye</p>
-                    <p>Descripción </p>
+                    <ul>
+                        <li *ngFor="let p of prendas">{{p}} </li>
+                    </ul>
+                    <p>{{itemDetail.decription}}</p>
                 </div>
             </div>
         </div>

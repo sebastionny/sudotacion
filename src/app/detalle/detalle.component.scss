@@ -7,8 +7,25 @@
     font-family: 'Montserrat', sans-serif!important;
     color: #333;
 
+    #itemDetail{
+            
+        img{
+            max-height: 180px;
+            border: solid #173873 3px;
+            border-radius: 5px;
+        }
+
+        h3 {
+            font-size: 1.3rem;
+            color: #fc861e;
+        }
+        li, p{
+            font-size: 0.8rem!important;
+        }
+    }
+
     > div {
-        height: 200px;
+        max-height: 250px;
         background: #fff;
         top: 30%;
     }
@@ -20,7 +37,7 @@
         padding: 2rem;
         text-align: center;
 
-        h3{ font-size: 1.6rem; }
+        h3{ font-size: 1.6rem;}
         h2{ font-size: 3rem; font-weight: 600;}
         
         .btn{
@@ -33,5 +50,20 @@
     > div:last-child{
         padding: 2rem;
     }
+}
+
+@media screen and (max-width: 650px) {
+    .detail{
+        > div{  
+            position: initial;
+            height: auto;
+            max-height: 100%;
+        }        
+        > div:first-child, > div:last-child{
+            padding: 1rem!important;
+        }
+    } 
+    
+        
 }
 
