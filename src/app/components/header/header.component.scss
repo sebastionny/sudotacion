@@ -7,7 +7,7 @@ $colorNaraja :#e4631e;
     
     .row:first-child{
         background:url('../../../assets/fondo-naranja.jpg') no-repeat center center;
-        background-size: cover;
+        background-size: cover!important;
         min-height: 170px;
         padding-top: 38px;
         color: #fff;

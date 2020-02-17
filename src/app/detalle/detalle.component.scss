@@ -31,7 +31,7 @@
     }
     > div:first-child{
         background: url(../../assets/backNaraja.jpg) no-repeat;
-        background-image: contain;
+        background-size: cover;
         color: #fff;
         font-weight: 400;
         padding: 2rem;
@@ -45,6 +45,10 @@
             width: 80%;
             color: #000000;
             letter-spacing: 0.1rem;
+        }
+        .btn:hover{
+            background:#263e9c;
+            color: #fc861e;
         }
     }
     > div:last-child{
