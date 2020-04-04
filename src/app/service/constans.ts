@@ -10,6 +10,8 @@ export const _DATOS_ = {
     image: {
         logo: 'assets/logo-sudotacion.png',
         whatsapp: 'assets/logo-whatsapp.png',
+        facebook: 'assets/facebook.png',
+        instagram: 'assets/instagram.png',
         trabajador: 'assets/trabajador-uniforme-dotacion.png',
         lienas: 'assets/lineas.png',
         medios1: 'assets/mediosDePago.jpg',
