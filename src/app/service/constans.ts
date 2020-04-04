@@ -4,13 +4,16 @@ export const _DATOS_ = {
         empresa: 'Sudotación S.A.S',
         horario: 'Horario de atención',
         cotizar: 'COTIZAR AHORA',
-        celular: '312 3693618'
+        celular: '312 3693618',
+        mediosPago: 'Medios de pago'
     },
     image: {
         logo: 'assets/logo-sudotacion.png',
         whatsapp: 'assets/logo-whatsapp.png',
         trabajador: 'assets/trabajador-uniforme-dotacion.png',
         lienas: 'assets/lineas.png',
+        medios1: 'assets/mediosDePago.jpg',
+        medios2: 'assets/mediosDePago_2.jpg',
     },
     items:
         [

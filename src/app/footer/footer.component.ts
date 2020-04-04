@@ -9,8 +9,7 @@ import {_DATOS_} from '../service/constans'
 export class FooterComponent implements OnInit {
 
   __DATOS__;
-
-  constructor() { 
+  constructor() {
     this.__DATOS__= _DATOS_;
   }
 
