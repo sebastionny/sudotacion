@@ -15,12 +15,12 @@ if (array_key_exists('email', $_POST)) {
     //Tell PHPMailer to use SMTP - requires a local mail server
     //Faster and safer than using mail()
     $mail->isSMTP();
-    $mail->Host = 'mail.aytexdotaciones.com';
+    $mail->Host = 'bh-3.webhostbox.net';
     $mail->Port = 465;
     $mail->SMTPDebug = 0;
     $mail->Debugoutput = 'html';
     $mail->SMTPAuth = true;
-    $mail->Username = "info@aytexdotaciones.com";
+    $mail->Username = "sebastian@tallern.com";
     $mail->Password = "1032384604";
     $mail->SMTPSecure = 'ssl';
     $mail->IsHTML(true);
@@ -94,7 +94,7 @@ $mail->Body    = $contenido;
 $mail->Send();
 
 $flag='ok';
-$mensaje='<div id="ok">Tu mensaje fué enviado gracias por contactarnos. <br> <br> No dude en llamarnos para atender su solicitud lo antes posible. <br> <br> <br><h2>Bogotá:</h2> <br>(57) -------------- <br><br> (57)+1 -----------  <br><br>   (57)+1 --------   <br><br>   (57)+1 --------</div>';
+$mensaje='<div id="ok">Tu mensaje fué enviado gracias por contactarnos. <br> <br> No dude en llamarnos para atender su solicitud lo antes posible. <br> <br> <br><h2>Bogotá: Calle 53 N. 27 a - 15 Bogotá Barrio Galerías</h2> <br>(57) (312) 369 3618 -------------- <br><br> (57)+1 721 5119 </div>';
 } else {
     
 //si no todos los campos fueron completados se frena el envio y avisamos al usuario 
