@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Item } from './items.modelo';
 import { _DATOS_ } from './service/constans';
+import { _ITEMS_ } from './service/items';
 import {
   fadeInOnEnterAnimation, fadeOutOnLeaveAnimation,
   zoomInAnimation,
@@ -44,7 +45,7 @@ export class AppComponent {
   itemSelected: Item = null;
 
   constructor() {
-    this.items = _DATOS_.items;
+    this.items = _ITEMS_.items;
   }
 
 }
