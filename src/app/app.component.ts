@@ -1,7 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Item } from './items.modelo';
 import { _DATOS_ } from './service/constans';
-import { _ITEMS_ } from './service/items';
 import {
   fadeInOnEnterAnimation, fadeOutOnLeaveAnimation,
   zoomInAnimation,
@@ -16,6 +15,7 @@ import {
   zoomOutUpAnimation,
   rubberBandAnimation
 } from 'angular-animations';
+import { ProductServiceService } from './service/product-service.service';
 
 
 @Component({
@@ -38,14 +38,25 @@ import {
     zoomOutUpAnimation()
   ]
 })
-export class AppComponent {
+export class AppComponent implements OnInit  {
   title = 'sudotacion';
   items: Item[] = [];
   condition = false;
   itemSelected: Item = null;
+  __DATOS__;
 
-  constructor() {
-    this.items = _ITEMS_.items;
+
+  constructor( private readonly service: ProductServiceService  ) {
+    this.__DATOS__= _DATOS_;
+  }
+
+  ngOnInit(): void {
+    this.service.cargarProductos()
+    .subscribe(
+      (items: Item[]) => {
+        this.items = items;
+      }
+    )
   }
 
 }

@@ -4,8 +4,8 @@
         [itemDetail]="itemSelected"></app-detalle>
     <app-header></app-header>
     <div class="container">
-        
         <div class="row">
+          <h2 class="col-sm-12 ">{{__DATOS__.contenido.nosotros}}</h2>
             <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" *ngFor="let it of items">
                 <app-item [item]="it"
                         (itemSelect)="itemSelected = $event"></app-item>

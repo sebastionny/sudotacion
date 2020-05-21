@@ -4,7 +4,7 @@ $colorNaraja :#e4631e;
 
 #header{
     font-family: 'Montserrat', sans-serif!important;
-    
+
     .row:first-child{
         background:url('../../../assets/fondo-naranja.jpg') no-repeat center center;
         background-size: cover!important;
@@ -30,11 +30,11 @@ $colorNaraja :#e4631e;
         font-size: 1rem;
         font-weight: 300;
         height: 250px;
-        
+
         h1 {  font-size: 2.2rem; font-weight: 300; }
         h2 {  font-size: 1.6rem; font-weight: 300; }
         span { color: $colorNaraja}
-        
+
         .trabajador img {
             position: relative;
             top: -180px;
@@ -51,7 +51,7 @@ $colorNaraja :#e4631e;
     #header{
         .row:last-child{
             height: 300px;
-            h1 {  font-size: 1.8rem; }    
+            h1 {  font-size: 1.8rem; }
     }
   }
 }

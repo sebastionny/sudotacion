@@ -19,12 +19,12 @@ export const _DATOS_ = {
     },
     contenido: {
         horario: 'Lunes a Viernes  9:00 am - 6:30 pm. Sábados de  9:00 am - 5:00 pm',
-        nosotros: 'Nos dedicamos a la fabricación de ropa para el trabajo. y comercialización de productos de seguridad para el trabajo, en áreas de la Industria de la Construcción, Metalmecánica, Comercio y Servicios como: Cocina, Mesa, Bar, Línea Hospitalaria y Cosmetología y ejecutivos.',
+        nosotros: 'Nos dedicamos a la fabricación de ropa de trabajo, suministramos toda la dotación para empresa de sectores como la construcción, metalmecánica, producción en masa, comercio y servicios como: Cocina, Mesa, Bar, Línea Hospitalaria y Cosmetología y ejecutivos.',
         infoFooter: 'Sudotación s.a.s      Teléfono: +57 (1) 721 5119      Celular  (312) 369 3618 ',
         infoFooterContacto: 'sudotacion@hotmail.com     Calle 53 N. 27 a - 15 Bogotá   Barrio Galerías'
     },
     action:{
         cotizar: 'COTIZAR POR EMAIL'
-    }
-
+    },
+    pathBase:"assets/"
 }

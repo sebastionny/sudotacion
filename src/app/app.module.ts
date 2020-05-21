@@ -10,6 +10,8 @@ import { DetalleComponent } from './detalle/detalle.component';
 import { BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { ContactoComponent } from './contacto/contacto.component';
 import { RootComponent } from './root/root.component';
+import { HttpClientModule } from '@angular/common/http';
+import { ProductServiceService } from './service/product-service.service';
 
 
 @NgModule({
@@ -26,8 +28,9 @@ import { RootComponent } from './root/root.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    HttpClientModule,
   ],
-  providers: [],
+  providers: [ProductServiceService],
   bootstrap: [RootComponent]
 })
 export class AppModule { }
